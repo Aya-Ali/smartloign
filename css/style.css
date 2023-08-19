@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #24353F;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header{
+    width: 60%;
+    -webkit-box-shadow: 1px 3px 53px -1px rgba(0,0,0,0.81);
+    -moz-box-shadow: 1px 3px 53px -1px rgba(0,0,0,0.81);
+     box-shadow: 1px 3px 53px -1px rgba(0,0,0,0.81);
+}
+.h1-cstm{
+    color: #17A2B8;
+}
+.p-cstm{
+    position: relative;
+    bottom: 20px;
+}
+.input-name-cstm{
+    display: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important; 
+    opacity: 1; /* Firefox */
+}
+#signin{
+    display: none;
+}
+#create-button{
+    display: none;
+    
+}
